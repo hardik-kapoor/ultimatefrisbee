@@ -1,0 +1,31 @@
+div{
+	box-sizing:border-box;
+	width:100px;
+	height: 100px;
+	border:2px solid;
+	margin:2%;
+	padding:2%;
+	display:inline-block;
+	transition: 2s ease;
+}
+
+div:focus{
+	background: #FFFF00; 
+}
+
+div:hover{
+	width:200px;
+	background: #800040;
+}
+
+.animate{
+	background: #92b901;
+	opacity: 0.3;
+	tranfor
+	border-radius: 5px;
+}
+
+.animate:hover{
+	transform:rotate(360deg);
+	opacity:1;
+}
